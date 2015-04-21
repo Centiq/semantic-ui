@@ -1,0 +1,365 @@
+/*******************************
+         Theme Overrides
+*******************************/
+
+
+/*------------------------------------------------------
+** NAV BAR
+**
+** The below are overides for the centiq nav bar to ensure 50px height, 
+** blue keyline and correct vertical padding of text and icons.
+*/
+
+.nav-centiq {
+	border-bottom: 3px solid @brand-primary !important;
+	background-color: @brand-dark-grey !important;
+	height: 50px !important;
+}
+
+/*
+** styling for nav bar buttons to add dividers and set height.
+*/
+
+.nav-button {
+	height: 50px !important;
+	border-bottom: 3px solid @brand-primary !important;
+	border-left: 1px solid rgba(255, 255, 255, 0.5);
+	border-right: none;
+	
+	&:hover,
+	&:focus {
+		background-color: @brand-x-dark-grey !important;
+
+		> i.nav-icon {
+			color: lighten(@navbar-default-link-color, 15%) !important;
+		}
+
+		> i.cicon.centiq-icon {
+			color: @brand-primary !important;
+		}
+	}
+}
+
+/*
+** top items in dropdowns display centiq blue when active.
+*/
+
+.ui.top.dropdown.item.nav-button.active.visible {
+	background-color: @brand-x-dark-grey !important;
+	color: @brand-primary !important;
+
+	> i {
+		color: @brand-primary !important;
+	}
+}
+
+/*
+** to not have left divider on first child floated to the right.
+*/
+
+.nav-button:first-child {
+	border-left: none !important; 
+}
+
+/*
+** gets rid of the unwanted faint menu divider in semantic defaults.
+*/
+
+.ui.inverted.menu .item:before {
+	background: none !important;
+}
+
+/*
+** positions text and icons in nav bar drop downs.
+*/
+
+.ui.menu .item {
+	padding-bottom: 0px !important;
+	padding-top: 14px !important;
+
+	> i.dropdown.icon {
+		margin-top: 4px;
+	}
+}
+
+/*------------------------------------------------------
+** NAV BAR ICONS
+**
+** The below are overides for the centiq nav bar icons for size, colour and positioning.
+*/
+
+.nav-icon {
+	margin-bottom: 4px !important;
+	font-size: 1.5em !important;
+	color: @navbar-default-link-color !important;
+}
+
+i.cicon.centiq-icon {
+	margin-top: -8px !important;
+	margin-right: -4px !important;
+	font-size: 2.5em !important;
+	color: @brand-primary !important;
+}
+
+.small-icon {
+	font-size: 1.2em !important;
+	margin-left: 12px !important;
+}
+
+
+/*------------------------------------------------------
+** SIDE MENU AND DROPDOWNS FROM NAV BAR
+**
+** The below are overides for the centiq menu, profile menu and group switcher.
+** 'open' class refers to the temporary jquery fudge for centiq
+** button background staying dark upon sidebar menu showing.
+*/
+
+/*
+** open class for darker background when centiq side menu is open.
+*/
+
+.open{
+	background: @brand-x-dark-grey !important;
+}
+
+/*
+** Making the sub sub nav links a larger font size.
+*/
+
+.ui.large.menu .item .item {
+	font-size: 1rem !important;
+}
+
+/*
+** Centiq menu background all dark grey.
+*/
+
+.ui.inverted.large.left.sidebar {
+	background-color: @brand-x-dark-grey !important;
+
+	&:hover,
+	&:focus {
+		background-color: @brand-x-dark-grey !important;
+	}
+}
+
+.ui.menu .dropdown.item .menu {
+	background-color: @brand-x-dark-grey !important;
+}
+
+/*
+** Menu items in the dropdown and side menus.
+*/
+
+.ui.inverted.menu .dropdown .menu .item {
+	color: lighten(@navbar-default-link-color, 7%) !important;
+	height: 50px !important;
+	border-top: 1px solid rgba(255, 255, 255, 0.2) !important;
+	padding-top: 15px !important;
+	
+	&:hover,
+	&:focus {
+		box-shadow: inset 0px 0px 25px darken(@brand-x-dark-grey, 25%) !important;
+		color: #ffffff !important;
+		> i {
+			color: #ffffff !important;
+		}
+	}
+}
+
+.ui.inverted.menu .header.item {
+	color: lighten(@navbar-default-link-color, 7%) !important;
+	min-height: 50px !important;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.2) !important;
+	background-color: @brand-x-dark-grey !important;
+	font-weight: normal !important;
+	font-size: 1.1em !important;
+
+	&:hover,
+	&:focus {
+		box-shadow: inset 0px 0px 25px darken(@brand-x-dark-grey, 25%) !important;
+		color: #ffffff !important;
+	}
+}
+
+.ui.inverted.menu .header.item:first-child {
+	border-top: 1px solid rgba(255, 255, 255, 0.2) !important;
+}
+
+.ui.inverted.menu .item, .ui.inverted.menu .item > a:not(.ui) {
+	color: lighten(@navbar-default-link-color, 7%) !important;
+
+	&:hover,
+	&:focus {
+		color: #ffffff !important;
+	}
+}
+
+/*
+** Stopping 'Open Sans' default for accordian title class
+*/
+
+.ui.accordion .title:not(.ui) {
+	font-family: 'Ubuntu', 'Helvetica Neue', Arial, Helvetica, sans-serif !important;
+}
+
+/*
+** The sub menu within the side menu.
+** There are classes below for each sub nav hover colour *.sd* *.com* and *.ad*
+** Capacity planning would be added here if or when sub nav is identified.
+*/
+
+.menu.transition.visible {
+
+	> a.item {
+		border-top: 1px solid rgba(255, 255, 255, 0.1);
+	}
+
+	> a.item:first-child {
+		border-top: none !important;
+	}
+
+	> a.item.sd {
+	padding-bottom: 14px !important;
+
+	&:hover,
+	&:focus {
+		color: @brand-servicedesk !important;
+		font-weight: bold;
+		}
+	}
+
+	> a.item.com {
+	padding-bottom: 14px !important;
+
+	&:hover,
+	&:focus {
+		color: @brand-commercial !important;
+		font-weight: bold;
+		}
+	}
+
+	> a.item.ad {
+	padding-bottom: 14px !important;
+
+	&:hover,
+	&:focus {
+		color: @brand-primary !important;
+		font-weight: bold;
+		}
+	}
+}
+
+/*------------------------------------------------------
+** SIDE MENU ICONS
+**
+** The below are overides for the centiq menu main nav area icons.
+*/
+
+.top-level-icon {
+	font-size: 30px;
+	float: left;
+	display: block;
+	margin-top: -5px !important;
+	margin-right: 12px !important;
+}
+
+.servicedesk {
+  color: @brand-servicedesk !important;
+  text-shadow: rgb(10, 10, 10) 2px 2px 0px;
+}
+
+.commercial {
+  color: @brand-commercial !important;
+  text-shadow: rgb(10, 10, 10) 2px 2px 0px;
+}
+
+.capacity {
+  color: @brand-capacity !important;
+  text-shadow: rgb(10, 10, 10) 2px 2px 0px;
+}
+
+.admin {
+  color: @brand-primary !important;
+  text-shadow: rgb(10, 10, 10) 2px 2px 0px;
+}
+
+
+/*------------------------------------------------------
+** CONTACT US AND SOCIAL
+**
+** The below are overides for the centiq menu main nav area icons.
+*/
+
+.utility-menu {
+  position: absolute;
+  padding-left: 0px !important;
+  top: auto;
+  bottom: 15px;
+  min-height: 150px;
+  width: 250px;
+  
+    li > a {
+    color: darken(@navbar-default-link-color, 15%) !important;
+    font-size: 1.1em !important;
+    padding-left: 18px !important;
+    
+    	&:hover,
+    	&:focus {
+      	text-decoration: none;
+      	color: #ffffff !important;
+  		}
+	}
+
+	li > a > i {
+		font-size: 1.2em !important;
+	}
+
+	li > a > span {
+		font-size: 0.9em !important;
+		font-weight: bold !important;
+		font-family: 'Arvo', serif !important;
+		
+	}
+}
+
+.ui.circular.button {
+	margin-left: 32px !important;
+}
+
+/*
+** Changing the divider to the correct grey.
+*/
+
+.ui.divider {
+	margin-top: 1rem !important;
+	margin-bottom: 1rem !important;
+}
+
+.ui.divider.inverted,
+.ui.divider.inverted:after,
+.ui.divider.inverted:before {
+	border-bottom-color: rgba(255, 255, 255, 0.4) !important;
+}
+
+/*
+** Copyright text
+*/
+
+.small-text {
+	margin-left: 18px;
+	margin-top: 30px;
+	font-size: 10px;
+	color: @brand-grey;
+ 	
+ 	 > a {
+    	color: @brand-grey;
+        
+        &:hover,
+    	&:focus {
+      		text-decoration: none;
+      		color: @brand-primary;
+    	}
+ 	}	
+}

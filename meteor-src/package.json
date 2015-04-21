@@ -1,0 +1,10 @@
+{
+  "name": "semantic-ui-centiq",
+  "version": "1.8.1",
+  "title": "Semantic UI For Centiq",
+  "description": "CSS Only distribution of Semantic UI With Centiq theme",
+  "homepage": "http://www.semantic-ui.com",
+  "dependencies": {
+    "jquery": "x.*"
+  }
+}
