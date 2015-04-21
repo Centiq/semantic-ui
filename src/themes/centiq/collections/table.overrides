@@ -1,0 +1,8 @@
+/*******************************
+         Theme Overrides
+*******************************/
+
+.ui.table thead th {
+	background-color: #313131 !important;
+	color: #ffffff !important;
+}
