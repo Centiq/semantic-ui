@@ -13,6 +13,7 @@ var
   clean        = require('./tasks/clean'),
   version      = require('./tasks/version'),
   watch        = require('./tasks/watch'),
+  buildMeteor  = require('./tasks/meteor-build'),
 
   // install tasks
   install      = require('./tasks/install'),
@@ -56,6 +57,8 @@ gulp.task('check-install', 'Displays current version of Semantic', checkInstall)
 
 gulp.task('serve-docs', 'Serve file changes to SUI Docs', serveDocs);
 gulp.task('build-docs', 'Build all files and add to SUI Docs', buildDocs);
+
+gulp.task('build-meteor', 'Build meteor package', buildMeteor);
 
 
 /*--------------
