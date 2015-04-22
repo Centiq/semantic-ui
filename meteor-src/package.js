@@ -20,7 +20,6 @@ Package.onUse(function(api) {
     'themes/centiq/assets/fonts/icons.svg',
     'themes/centiq/assets/fonts/icons.ttf',
     'themes/centiq/assets/fonts/icons.woff',
-    'themes/centiq/assets/fonts/icons.woff2',
 
     // flags
     'themes/centiq/assets/images/flags.png',
