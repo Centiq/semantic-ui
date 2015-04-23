@@ -1,3 +1,29 @@
 /*******************************
          Theme Overrides
 *******************************/
+
+/*.ui.fluid.toggle.button.active {
+	background-color: #28abe2 !important;
+}*/
+.ui.fluid.toggle.button,
+.ui.fluid.toggle.button.disabled,
+.ui.fluid.toggle.button.active,
+.ui.fluid.toggle.button.active.disabled {
+	font-size: 12px;
+	padding-right: 4px;
+	padding-left: 4px;
+	letter-spacing: -0.05em;
+}
+
+.ui.fluid.toggle.button.active,
+.ui.fluid.toggle.button.active.disabled {
+	background-color: #28abe2 !important;
+	color: #fff !important;
+}
+
+.ui.fluid.toggle.button,
+.ui.fluid.toggle.button.disabled {
+	background-color: #313131;
+	color: #666;
+	box-shadow: inset 0 0 0 1px #555;
+}

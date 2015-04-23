@@ -31,3 +31,10 @@
 .radio:before { content: '\e803'; }
 
 */
+
+.ui.toggle.checkbox input[type="checkbox"]:checked ~ .box:before,
+.ui.toggle.checkbox input[type="checkbox"]:checked ~ label:before,
+.ui.toggle.checkbox input[type="radio"]:checked ~ .box:before,
+.ui.toggle.checkbox input[type="radio"]:checked ~ label:before {
+	background-color: #28abe2 !important;
+}

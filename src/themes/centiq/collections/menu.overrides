@@ -2,7 +2,6 @@
          Theme Overrides
 *******************************/
 
-
 /*------------------------------------------------------
 ** NAV BAR
 **
@@ -19,7 +18,7 @@
 /*
 ** styling for nav bar buttons to add dividers and set height.
 */
-
+ 
 .nav-button {
 	height: 50px !important;
 	border-bottom: 3px solid @brand-primary !important;
@@ -171,7 +170,7 @@ i.cicon.centiq-icon {
 .ui.inverted.menu .header.item {
 	color: lighten(@navbar-default-link-color, 7%) !important;
 	min-height: 50px !important;
-	border-bottom: 1px solid rgba(255, 255, 255, 0.2) !important;
+	border-top: 1px solid rgba(255, 255, 255, 0.2) !important;
 	background-color: @brand-x-dark-grey !important;
 	font-weight: normal !important;
 	font-size: 1.1em !important;
@@ -325,7 +324,7 @@ i.cicon.centiq-icon {
 }
 
 .ui.circular.button {
-	margin-left: 32px !important;
+	margin-left: 14px !important;
 }
 
 /*

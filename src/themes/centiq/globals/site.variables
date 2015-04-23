@@ -49,7 +49,7 @@
 
 /*---  Colors  ---*/
 @black            : #1B1C1D;
-@blue             : #3B83C0;
+@blue             : #28abe2;
 @green            : #5BBD72;
 @grey             : #CCCCCC;
 @orange           : #E07B53;
@@ -228,7 +228,7 @@
 
 /* For source only. Modified in gulp for dist */
 @imagePath : '../../themes/default/assets/images';
-@fontPath  : '../../themes/centiq/assets/fonts';
+@fontPath  : '/assets/fonts/';
 
 /*-------------------
        Em Sizes
