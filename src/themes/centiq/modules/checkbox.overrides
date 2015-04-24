@@ -32,6 +32,13 @@
 
 */
 
+
+/*------------------------------------------------------
+** CENTIQ CHECKBOX/TOGGLE COLOUR
+**
+** The below are overides for the centiq filter panel toggle icons.
+*/
+
 .ui.toggle.checkbox input[type="checkbox"]:checked ~ .box:before,
 .ui.toggle.checkbox input[type="checkbox"]:checked ~ label:before,
 .ui.toggle.checkbox input[type="radio"]:checked ~ .box:before,

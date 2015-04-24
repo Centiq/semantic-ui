@@ -72,7 +72,7 @@
 ** positions text and icons in nav bar drop downs.
 */
 
-.ui.menu .item {
+.ui.menu .item-nav {
 	padding-bottom: 0px !important;
 	padding-top: 14px !important;
 
@@ -264,22 +264,22 @@ i.cicon.centiq-icon {
 	margin-right: 12px !important;
 }
 
-.servicedesk {
+.servicedesk-icon {
   color: @brand-servicedesk !important;
   text-shadow: rgb(10, 10, 10) 2px 2px 0px;
 }
 
-.commercial {
+.commercial-icon {
   color: @brand-commercial !important;
   text-shadow: rgb(10, 10, 10) 2px 2px 0px;
 }
 
-.capacity {
+.capacity-icon {
   color: @brand-capacity !important;
   text-shadow: rgb(10, 10, 10) 2px 2px 0px;
 }
 
-.admin {
+.admin-icon {
   color: @brand-primary !important;
   text-shadow: rgb(10, 10, 10) 2px 2px 0px;
 }
