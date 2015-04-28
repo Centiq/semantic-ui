@@ -2,3 +2,22 @@
         Global Overrides
 *******************************/
 
+/*
+** CENTIQ GLOBAL RAG COLOURS
+*/
+
+.danger {
+	color: @centiq-danger;
+}
+
+.warning {
+	color: @centiq-warning;
+}
+
+.success {
+	color: @centiq-success;
+}
+
+.neutral {
+	color: @centiq-neutral;
+}

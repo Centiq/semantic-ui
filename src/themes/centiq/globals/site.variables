@@ -104,9 +104,10 @@
 @brand-capacity       : #986ECC;
 @brand-commercial     : #a8be3d;
 
-@centiq-danger        : #e23626;
-@centiq-warning       : #ff6600;
-@centiq-success       : #339900;
+@centiq-danger        : #E23626;
+@centiq-warning       : #F26722;
+@centiq-success       : #359A46;
+@centiq-neutral       : #7A8783;
 
 /*-------------------
         Sizes
@@ -207,8 +208,8 @@
 --------------------*/
 
 /* 4px @ default em */
-@relativeBorderRadius: 0.2857em;
-@absoluteBorderRadius: 0.2857rem;
+@relativeBorderRadius: 0.4em;
+@absoluteBorderRadius: 0.4rem;
 @defaultBorderRadius: @absoluteBorderRadius;
 
 /* Differentiating Neutrals */

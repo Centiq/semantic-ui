@@ -805,6 +805,22 @@ i.cicon {
   content: "\77";
 }
 
+.cicon.high:before {
+	content: "\5d";
+}
+
+.cicon.low:before {
+	content: "\5b";
+}
+
+.cicon.normal:before {
+	content: "\28";
+}
+
+.cicon.scheduled:before {
+	content: "\29";
+}
+
 
 /**
 * Tools
