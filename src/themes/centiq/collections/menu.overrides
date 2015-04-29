@@ -115,14 +115,6 @@ i.cicon.centiq-icon {
 */
 
 /*
-** open class for darker background when centiq side menu is open.
-*/
-
-.open{
-	background: @brand-x-dark-grey !important;
-}
-
-/*
 ** Making the sub sub nav links a larger font size.
 */
 
