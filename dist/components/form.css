@@ -53,7 +53,7 @@
 .ui.form .field > label {
   display: block;
   margin: 0em 0em 0.28571429rem 0em;
-  color: rgba(0, 0, 0, 0.87);
+  color: rgba(0, 0, 0, 0.8);
   font-size: 0.92857143em;
   font-weight: bold;
   text-transform: none;
@@ -90,7 +90,7 @@
 .ui.form input[type="time"],
 .ui.form input[type="text"],
 .ui.form input[type="url"] {
-  font-family: 'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-family: 'Ubuntu', 'Helvetica Neue', Arial, Helvetica, sans-serif;
   margin: 0em;
   outline: none;
   -webkit-appearance: none;
@@ -99,9 +99,9 @@
   padding: 0.67861429em 1em;
   font-size: 1em;
   background: #ffffff;
-  border: 1px solid rgba(34, 36, 38, 0.15);
-  color: rgba(0, 0, 0, 0.87);
-  border-radius: 0.28571429rem;
+  border: 1px solid rgba(39, 41, 43, 0.15);
+  color: rgba(0, 0, 0, 0.8);
+  border-radius: 0.4rem;
   box-shadow: 0em 0em 0em 0em transparent inset;
   -webkit-transition: color 0.1s ease, border-color 0.1s ease;
           transition: color 0.1s ease, border-color 0.1s ease;
@@ -119,10 +119,10 @@
   tap-highlight-color: rgba(255, 255, 255, 0);
   padding: 0.78571429em 1em;
   background: #ffffff;
-  border: 1px solid rgba(34, 36, 38, 0.15);
+  border: 1px solid rgba(39, 41, 43, 0.15);
   outline: none;
-  color: rgba(0, 0, 0, 0.87);
-  border-radius: 0.28571429rem;
+  color: rgba(0, 0, 0, 0.8);
+  border-radius: 0.4rem;
   box-shadow: 0em 0em 0em 0em transparent inset;
   -webkit-transition: color 0.1s ease, border-color 0.1s ease;
           transition: color 0.1s ease, border-color 0.1s ease;
@@ -157,11 +157,11 @@
   height: auto;
   width: 100%;
   background: #ffffff;
-  border: 1px solid rgba(34, 36, 38, 0.15);
-  border-radius: 0.28571429rem;
+  border: 1px solid rgba(39, 41, 43, 0.15);
+  border-radius: 0.4rem;
   box-shadow: 0em 0em 0em 0em transparent inset;
   padding: 0.62em 1em;
-  color: rgba(0, 0, 0, 0.87);
+  color: rgba(0, 0, 0, 0.8);
   -webkit-transition: color 0.1s ease, border-color 0.1s ease;
           transition: color 0.1s ease, border-color 0.1s ease;
 }
@@ -259,42 +259,42 @@
 
 /* browsers require these rules separate */
 .ui.form ::-webkit-input-placeholder {
-  color: rgba(140, 140, 140, 0.87);
+  color: rgba(140, 140, 140, 0.8);
 }
 .ui.form ::-ms-input-placeholder {
-  color: rgba(140, 140, 140, 0.87);
+  color: rgba(140, 140, 140, 0.8);
 }
 .ui.form ::-moz-placeholder {
-  color: rgba(140, 140, 140, 0.87);
+  color: rgba(140, 140, 140, 0.8);
 }
 .ui.form :focus::-webkit-input-placeholder {
-  color: rgba(89, 89, 89, 0.87);
+  color: rgba(89, 89, 89, 0.8);
 }
 .ui.form :focus::-ms-input-placeholder {
-  color: rgba(89, 89, 89, 0.87);
+  color: rgba(89, 89, 89, 0.8);
 }
 .ui.form :focus::-moz-placeholder {
-  color: rgba(89, 89, 89, 0.87);
+  color: rgba(89, 89, 89, 0.8);
 }
 
 /* Error Placeholder */
 .ui.form .error ::-webkit-input-placeholder {
-  color: #bf4d4b;
+  color: #c0605e;
 }
 .ui.form .error ::-ms-input-placeholder {
-  color: #bf4d4b;
+  color: #c0605e;
 }
 .ui.form .error ::-moz-placeholder {
-  color: #bf4d4b;
+  color: #c0605e;
 }
 .ui.form .error :focus::-webkit-input-placeholder {
-  color: #b2413f;
+  color: #b94e4c;
 }
 .ui.form .error :focus::-ms-input-placeholder {
-  color: #b2413f;
+  color: #b94e4c;
 }
 .ui.form .error :focus::-moz-placeholder {
-  color: #b2413f;
+  color: #b94e4c;
 }
 
 /*--------------------
@@ -312,18 +312,18 @@
 .ui.form input[type="time"]:focus,
 .ui.form input[type="text"]:focus,
 .ui.form input[type="url"]:focus {
-  color: rgba(0, 0, 0, 0.95);
-  border-color: rgba(34, 36, 38, 0.35);
-  border-radius: 0.28571429rem;
+  color: rgba(0, 0, 0, 0.8);
+  border-color: rgba(39, 41, 43, 0.3);
+  border-radius: 0.4rem;
   background: #ffffff;
-  box-shadow: 0px 0em 0em 0em rgba(34, 36, 38, 0.35) inset;
+  box-shadow: 0px 0em 0em 0em rgba(39, 41, 43, 0.3) inset;
 }
 .ui.form textarea:focus {
-  color: rgba(0, 0, 0, 0.95);
-  border-color: rgba(34, 36, 38, 0.35);
-  border-radius: 0.28571429rem;
+  color: rgba(0, 0, 0, 0.8);
+  border-color: rgba(39, 41, 43, 0.3);
+  border-radius: 0.4rem;
   background: #ffffff;
-  box-shadow: 0px 0em 0em 0em rgba(34, 36, 38, 0.35) inset;
+  box-shadow: 0px 0em 0em 0em rgba(39, 41, 43, 0.3) inset;
   -webkit-appearance: none;
 }
 
@@ -380,11 +380,11 @@
 .ui.form .field.error label,
 .ui.form .fields.error .field .input,
 .ui.form .field.error .input {
-  color: #9f3a38;
+  color: #a94442;
 }
 .ui.form .fields.error .field .corner.label,
 .ui.form .field.error .corner.label {
-  border-color: #9f3a38;
+  border-color: #a94442;
   color: #ffffff;
 }
 .ui.form .fields.error .field textarea,
@@ -413,10 +413,10 @@
 .ui.form .field.error input[type="time"],
 .ui.form .field.error input[type="text"],
 .ui.form .field.error input[type="url"] {
-  background: #fff6f6;
-  border-color: #e0b4b4;
-  color: #9f3a38;
-  border-radius: 0.28571429rem;
+  background: #fff0f0;
+  border-color: #dbb1b1;
+  color: #a94442;
+  border-radius: 0.4rem;
   box-shadow: none;
 }
 .ui.form .field.error textarea:focus,
@@ -432,9 +432,9 @@
 .ui.form .field.error input[type="time"]:focus,
 .ui.form .field.error input[type="text"]:focus,
 .ui.form .field.error input[type="url"]:focus {
-  background: #fff6f6;
-  border-color: #e0b4b4;
-  color: #9f3a38;
+  background: #fff0f0;
+  border-color: #dbb1b1;
+  color: #a94442;
   -webkit-appearance: none;
   box-shadow: none;
 }
@@ -453,25 +453,25 @@
 .ui.form .field.error .ui.dropdown,
 .ui.form .field.error .ui.dropdown .text,
 .ui.form .field.error .ui.dropdown .item {
-  background: #fff6f6;
-  color: #9f3a38;
+  background: #fff0f0;
+  color: #a94442;
 }
 .ui.form .fields.error .field .ui.dropdown,
 .ui.form .field.error .ui.dropdown {
-  border-color: #e0b4b4 !important;
+  border-color: #dbb1b1 !important;
 }
 .ui.form .fields.error .field .ui.dropdown:hover,
 .ui.form .field.error .ui.dropdown:hover {
-  border-color: #e0b4b4 !important;
+  border-color: #dbb1b1 !important;
 }
 .ui.form .fields.error .field .ui.dropdown:hover .menu,
 .ui.form .field.error .ui.dropdown:hover .menu {
-  border-color: #e0b4b4;
+  border-color: #dbb1b1;
 }
 .ui.form .fields.error .field .ui.multiple.selection.dropdown > .label,
 .ui.form .field.error .ui.multiple.selection.dropdown > .label {
   background-color: #eacbcb;
-  color: #9f3a38;
+  color: #a94442;
 }
 
 /* Hover */
@@ -500,20 +500,20 @@
 .ui.form .field.error .checkbox:not(.toggle):not(.slider) label,
 .ui.form .fields.error .field .checkbox:not(.toggle):not(.slider) .box,
 .ui.form .field.error .checkbox:not(.toggle):not(.slider) .box {
-  color: #9f3a38;
+  color: #a94442;
 }
 .ui.form .fields.error .field .checkbox:not(.toggle):not(.slider) label:before,
 .ui.form .field.error .checkbox:not(.toggle):not(.slider) label:before,
 .ui.form .fields.error .field .checkbox:not(.toggle):not(.slider) .box:before,
 .ui.form .field.error .checkbox:not(.toggle):not(.slider) .box:before {
-  background: #fff6f6;
-  border-color: #e0b4b4;
+  background: #fff0f0;
+  border-color: #dbb1b1;
 }
 .ui.form .fields.error .field .checkbox label:after,
 .ui.form .field.error .checkbox label:after,
 .ui.form .fields.error .field .checkbox .box:after,
 .ui.form .field.error .checkbox .box:after {
-  color: #9f3a38;
+  color: #a94442;
 }
 
 /*--------------------
@@ -523,10 +523,10 @@
 .ui.form .disabled.fields .field,
 .ui.form .disabled.field,
 .ui.form .field :disabled {
-  opacity: 0.45;
+  opacity: 0.3;
 }
 .ui.form .field.disabled label {
-  opacity: 0.45;
+  opacity: 0.3;
 }
 .ui.form .field.disabled :disabled {
   opacity: 1;
@@ -569,7 +569,7 @@
   -webkit-animation-iteration-count: infinite;
           animation-iteration-count: infinite;
   border-radius: 500rem;
-  border-color: #767676 rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1);
+  border-color: #aaaaaa rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1);
   border-style: solid;
   border-width: 0.2em;
   box-shadow: 0px 0px 0px 1px transparent;
@@ -614,7 +614,7 @@
 .ui.form .required.field > .checkbox:after {
   margin: -0.2em 0em 0em 0.2em;
   content: '*';
-  color: #db2828;
+  color: #d95c5c;
 }
 .ui.form .required.fields:not(.grouped) > .field > label:after,
 .ui.form .required.fields.grouped > label:after,
@@ -645,7 +645,7 @@
 .ui.form .inverted.segment .ui.checkbox .box,
 .ui.inverted.form .ui.checkbox label,
 .ui.inverted.form .ui.checkbox .box {
-  color: rgba(255, 255, 255, 0.9);
+  color: #ffffff;
 }
 
 /*--------------------
@@ -663,7 +663,7 @@
 }
 .ui.form .grouped.fields > label {
   margin: 0em 0em 0.28571429rem 0em;
-  color: rgba(0, 0, 0, 0.87);
+  color: rgba(0, 0, 0, 0.8);
   font-size: 0.92857143em;
   font-weight: bold;
   text-transform: none;
@@ -903,7 +903,7 @@
   vertical-align: baseline;
   font-size: 0.92857143em;
   font-weight: bold;
-  color: rgba(0, 0, 0, 0.87);
+  color: rgba(0, 0, 0, 0.8);
   text-transform: none;
 }
 
