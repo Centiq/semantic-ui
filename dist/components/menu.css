@@ -1925,16 +1925,6 @@ Floated Menu / Item
 .ui.inverted.menu .item:before {
   background: none !important;
 }
-/*
-** positions text and icons in nav bar drop downs.
-*/
-.ui.menu .item-nav {
-  padding-bottom: 0px !important;
-  padding-top: 14px !important;
-}
-.ui.menu .item-nav > i.dropdown.icon {
-  margin-top: 4px;
-}
 
 /*------------------------------------------------------
 ** NAV BAR ICONS
@@ -1948,7 +1938,6 @@ Floated Menu / Item
   color: #c6cecb !important;
 }
 i.cicon.centiq-icon {
-  margin-top: -8px !important;
   margin-right: -4px !important;
   font-size: 2.5em !important;
   color: #28abe2 !important;
