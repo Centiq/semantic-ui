@@ -6,13 +6,13 @@
        Fonts
 --------------------*/
 
-@headerFont        : 'Ubuntu', 'Helvetica Neue', Arial, Helvetica, sans-serif;
-@pageFont          : 'Ubuntu', 'Helvetica Neue', Arial, Helvetica, sans-serif;
-@titleFont          : 'Ubuntu', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+@headerFont        : 'Roboto', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+@pageFont          : 'Roboto', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+@titleFont          : 'Roboto', 'Helvetica Neue', Arial, Helvetica, sans-serif;
 @fontSmoothing     : antialiased;
 
 @importGoogleFonts : true;
-@googleFontName    : 'Ubuntu';
+@googleFontName    : 'Roboto';
 @googleFontSizes   : '400,700,400italic,700italic';
 @googleSubset      : 'latin';
 
