@@ -105,7 +105,7 @@
 @brand-commercial     : #a8be3d;
 
 @centiq-danger        : #E23626;
-@centiq-warning       : #F78414;
+@centiq-warning       : #F7931E;
 @centiq-success       : #359A46;
 @centiq-neutral       : #7A8783;
 
