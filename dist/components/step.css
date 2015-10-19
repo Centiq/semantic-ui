@@ -1,5 +1,5 @@
 /*!
- * # Semantic UI 2.0.3 - Step
+ * # Semantic UI 2.1.4 - Step
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -32,8 +32,8 @@
   background: '';
   box-shadow: none;
   line-height: 1.14285714em;
-  border-radius: 0.4rem;
-  border: 1px solid rgba(39, 41, 43, 0.15);
+  border-radius: 0.28571429rem;
+  border: 1px solid rgba(34, 36, 38, 0.15);
 }
 
 /* First Steps */
@@ -81,11 +81,11 @@
   margin: 0em 0em;
   padding: 1.14285714em 2em;
   background: #ffffff;
-  color: rgba(0, 0, 0, 0.8);
+  color: rgba(0, 0, 0, 0.87);
   box-shadow: none;
   border-radius: 0em;
   border: none;
-  border-right: 1px solid rgba(39, 41, 43, 0.15);
+  border-right: 1px solid rgba(34, 36, 38, 0.15);
   -webkit-transition: background-color 0.1s ease, opacity 0.1s ease, color 0.1s ease, box-shadow 0.1s ease;
           transition: background-color 0.1s ease, opacity 0.1s ease, color 0.1s ease, box-shadow 0.1s ease;
 }
@@ -103,7 +103,7 @@
   width: 1.14285714em;
   height: 1.14285714em;
   border-style: solid;
-  border-color: rgba(39, 41, 43, 0.15);
+  border-color: rgba(34, 36, 38, 0.15);
   border-width: 0px 1px 1px 0px;
   -webkit-transition: background-color 0.1s ease, opacity 0.1s ease, color 0.1s ease, box-shadow 0.1s ease;
           transition: background-color 0.1s ease, opacity 0.1s ease, color 0.1s ease, box-shadow 0.1s ease;
@@ -115,21 +115,21 @@
 /* First Step */
 .ui.steps .step:first-child {
   padding-left: 2em;
-  border-radius: 0.4rem 0em 0em 0.4rem;
-}
-
-/* Only Step */
-.ui.steps .step:only-child {
-  border-radius: 0.4rem;
+  border-radius: 0.28571429rem 0em 0em 0.28571429rem;
 }
 
 /* Last Step */
 .ui.steps .step:last-child {
-  border-radius: 0em 0.4rem 0.4rem 0em;
+  border-radius: 0em 0.28571429rem 0.28571429rem 0em;
 }
 .ui.steps .step:last-child {
   border-right: none;
   margin-right: 0em;
+}
+
+/* Only Step */
+.ui.steps .step:only-child {
+  border-radius: 0.28571429rem;
 }
 
 
@@ -140,7 +140,7 @@
 
 /* Title */
 .ui.steps .step .title {
-  font-family: 'Roboto', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-family: 'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif;
   font-size: 1.14285714em;
   font-weight: bold;
 }
@@ -152,7 +152,7 @@
 .ui.steps .step .description {
   font-weight: normal;
   font-size: 0.92857143em;
-  color: rgba(0, 0, 0, 0.8);
+  color: rgba(0, 0, 0, 0.87);
 }
 .ui.steps .step > .description {
   width: 100%;
@@ -254,15 +254,18 @@
   border-radius: 0em;
   padding: 1.14285714em 2em;
   border-right: none;
-  border-bottom: 1px solid rgba(39, 41, 43, 0.15);
+  border-bottom: 1px solid rgba(34, 36, 38, 0.15);
 }
 .ui.vertical.steps .step:first-child {
   padding: 1.14285714em 2em;
-  border-radius: 0.4rem 0.4rem 0em 0em;
+  border-radius: 0.28571429rem 0.28571429rem 0em 0em;
 }
 .ui.vertical.steps .step:last-child {
   border-bottom: none;
-  border-radius: 0em 0em 0.4rem 0.4rem;
+  border-radius: 0em 0em 0.28571429rem 0.28571429rem;
+}
+.ui.vertical.steps .step:only-child {
+  border-radius: 0.28571429rem;
 }
 
 /* Arrow */
@@ -318,10 +321,10 @@
   }
   .ui.steps .step:first-child {
     padding: 1.14285714em 2em;
-    border-radius: 0.4rem 0.4rem 0em 0em;
+    border-radius: 0.28571429rem 0.28571429rem 0em 0em;
   }
   .ui.steps .step:last-child {
-    border-radius: 0em 0em 0.4rem 0.4rem;
+    border-radius: 0em 0em 0.28571429rem 0.28571429rem;
   }
   
 /* Arrow */
@@ -352,7 +355,7 @@
 .ui.steps .link.step:hover,
 .ui.steps a.step:hover::after,
 .ui.steps a.step:hover {
-  background: #fafafa;
+  background: #f9fafb;
   color: rgba(0, 0, 0, 0.8);
 }
 
@@ -361,20 +364,20 @@
 .ui.steps .link.step:active,
 .ui.steps a.step:active::after,
 .ui.steps a.step:active {
-  background: #f0f0f0;
-  color: rgba(0, 0, 0, 0.8);
+  background: #f3f4f5;
+  color: rgba(0, 0, 0, 0.9);
 }
 
 /* Active */
 .ui.steps .step.active {
   cursor: auto;
-  background: #f0f0f0;
+  background: #f3f4f5;
 }
 .ui.steps .step.active:after {
-  background: #f0f0f0;
+  background: #f3f4f5;
 }
 .ui.steps .step.active .title {
-  color: #009fda;
+  color: #4183c4;
 }
 .ui.ordered.steps .step.active:before,
 .ui.steps .active.step .icon {
@@ -402,13 +405,13 @@
 .ui.steps a.active.step:hover {
   cursor: pointer;
   background: #dcddde;
-  color: rgba(0, 0, 0, 0.8);
+  color: rgba(0, 0, 0, 0.87);
 }
 
 /* Completed */
 .ui.steps .step.completed > .icon:before,
 .ui.ordered.steps .step.completed:before {
-  color: #5bbd72;
+  color: #21ba45;
 }
 
 /* Disabled */
@@ -464,10 +467,10 @@
   }
   .ui[class*="tablet stackable"].steps .step:first-child {
     padding: 1.14285714em 2em;
-    border-radius: 0.4rem 0.4rem 0em 0em;
+    border-radius: 0.28571429rem 0.28571429rem 0em 0em;
   }
   .ui[class*="tablet stackable"].steps .step:last-child {
-    border-radius: 0em 0em 0.4rem 0.4rem;
+    border-radius: 0em 0em 0.28571429rem 0.28571429rem;
   }
   
 /* Arrow */
@@ -511,25 +514,25 @@
   width: calc(100% +  2px ) !important;
   margin: 0em -1px -1px;
   max-width: calc(100% +  2px );
-  border-radius: 0.4rem 0.4rem 0em 0em;
+  border-radius: 0.28571429rem 0.28571429rem 0em 0em;
 }
 .ui.attached.steps .step:first-child {
-  border-radius: 0.4rem 0em 0em 0em;
+  border-radius: 0.28571429rem 0em 0em 0em;
 }
 .ui.attached.steps .step:last-child {
-  border-radius: 0em 0.4rem 0em 0em;
+  border-radius: 0em 0.28571429rem 0em 0em;
 }
 
 /* Bottom */
 .ui.bottom.attached.steps {
   margin: -1px -1px 0em;
-  border-radius: 0em 0em 0.4rem 0.4rem;
+  border-radius: 0em 0em 0.28571429rem 0.28571429rem;
 }
 .ui.bottom.attached.steps .step:first-child {
-  border-radius: 0em 0em 0em 0.4rem;
+  border-radius: 0em 0em 0em 0.28571429rem;
 }
 .ui.bottom.attached.steps .step:last-child {
-  border-radius: 0em 0em 0.4rem 0em;
+  border-radius: 0em 0em 0.28571429rem 0em;
 }
 
 /*-------------------

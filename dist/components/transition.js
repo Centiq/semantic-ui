@@ -1,5 +1,5 @@
 /*!
- * # Semantic UI 2.0.3 - Transition
+ * # Semantic UI 2.1.4 - Transition
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -392,7 +392,7 @@ $.fn.transition = function() {
               module.add.failSafe();
             }
             module.set.duration(settings.duration);
-            settings.onStart.call(this);
+            settings.onStart.call(element);
           }
         },
 
@@ -767,9 +767,9 @@ $.fn.transition = function() {
           module.remove.display();
           module.remove.visible();
           module.set.hidden();
-          settings.onHide.call(this);
-          settings.onComplete.call(this);
           module.force.hidden();
+          settings.onHide.call(element);
+          settings.onComplete.call(element);
           // module.repaint();
         },
 
@@ -777,9 +777,9 @@ $.fn.transition = function() {
           module.verbose('Showing element', display);
           module.remove.hidden();
           module.set.visible();
-          settings.onShow.call(this);
-          settings.onComplete.call(this);
           module.force.visible();
+          settings.onShow.call(element);
+          settings.onComplete.call(element);
           // module.repaint();
         },
 

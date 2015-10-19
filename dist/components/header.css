@@ -1,5 +1,5 @@
 /*!
- * # Semantic UI 2.0.3 - Header
+ * # Semantic UI 2.1.4 - Header
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -18,16 +18,16 @@
 /* Standard */
 .ui.header {
   border: none;
-  margin: calc(2rem -  0.165em ) 0em 1rem;
+  margin: calc(2rem -  0.14285em ) 0em 1rem;
   padding: 0em 0em;
-  font-family: 'Roboto', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-family: 'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif;
   font-weight: bold;
-  line-height: 1.33em;
+  line-height: 1.2857em;
   text-transform: none;
-  color: rgba(0, 0, 0, 0.8);
+  color: rgba(0, 0, 0, 0.87);
 }
 .ui.header:first-child {
-  margin-top: -0.165em;
+  margin-top: -0.14285em;
 }
 .ui.header:last-child {
   margin-bottom: 0em;
@@ -54,7 +54,7 @@
   display: table-cell;
   opacity: 1;
   font-size: 1.5em;
-  padding-top: 0.165em;
+  padding-top: 0.14285em;
   vertical-align: middle;
 }
 
@@ -72,7 +72,7 @@
 .ui.header > .image,
 .ui.header > img {
   display: inline-block;
-  margin-top: 0.165em;
+  margin-top: 0.14285em;
   width: 2.5em;
   height: auto;
   vertical-align: middle;
@@ -280,7 +280,7 @@ h5.ui.header .sub.header {
 *******************************/
 
 .ui.disabled.header {
-  opacity: 0.3;
+  opacity: 0.45;
 }
 
 
@@ -300,14 +300,14 @@ h5.ui.header .sub.header {
   color: rgba(255, 255, 255, 0.8);
 }
 .ui.inverted.attached.header {
-  background: #333333 -webkit-linear-gradient(transparent, rgba(0, 0, 0, 0.05));
-  background: #333333 linear-gradient(transparent, rgba(0, 0, 0, 0.05));
+  background: #545454 -webkit-linear-gradient(transparent, rgba(0, 0, 0, 0.05));
+  background: #545454 linear-gradient(transparent, rgba(0, 0, 0, 0.05));
   box-shadow: none;
   border-color: transparent;
 }
 .ui.inverted.block.header {
-  background: #333333 -webkit-linear-gradient(transparent, rgba(0, 0, 0, 0.05));
-  background: #333333 linear-gradient(transparent, rgba(0, 0, 0, 0.05));
+  background: #545454 -webkit-linear-gradient(transparent, rgba(0, 0, 0, 0.05));
+  background: #545454 linear-gradient(transparent, rgba(0, 0, 0, 0.05));
   box-shadow: none;
 }
 .ui.inverted.block.header {
@@ -322,13 +322,13 @@ h5.ui.header .sub.header {
 /*--- Red ---*/
 
 .ui.red.header {
-  color: #d95c5c !important;
+  color: #db2828 !important;
 }
 a.ui.red.header:hover {
-  color: #dc6868 !important;
+  color: #d01919 !important;
 }
 .ui.red.dividing.header {
-  border-bottom: 2px solid #d95c5c;
+  border-bottom: 2px solid #db2828;
 }
 
 /* Inverted */
@@ -336,19 +336,19 @@ a.ui.red.header:hover {
   color: #ff695e !important;
 }
 a.ui.inverted.red.header:hover {
-  color: #ff776d !important;
+  color: #ff5144 !important;
 }
 
 /*--- Orange ---*/
 
 .ui.orange.header {
-  color: #e07b53 !important;
+  color: #f2711c !important;
 }
 a.ui.orange.header:hover {
-  color: #e28560 !important;
+  color: #f26202 !important;
 }
 .ui.orange.dividing.header {
-  border-bottom: 2px solid #e07b53;
+  border-bottom: 2px solid #f2711c;
 }
 
 /* Inverted */
@@ -356,7 +356,7 @@ a.ui.orange.header:hover {
   color: #ff851b !important;
 }
 a.ui.inverted.orange.header:hover {
-  color: #ff8d2a !important;
+  color: #ff7701 !important;
 }
 
 /*--- Olive ---*/
@@ -382,13 +382,13 @@ a.ui.inverted.olive.header:hover {
 /*--- Yellow ---*/
 
 .ui.yellow.header {
-  color: #f2c61f !important;
+  color: #fbbd08 !important;
 }
 a.ui.yellow.header:hover {
-  color: #f3ca2d !important;
+  color: #eaae00 !important;
 }
 .ui.yellow.dividing.header {
-  border-bottom: 2px solid #f2c61f;
+  border-bottom: 2px solid #fbbd08;
 }
 
 /* Inverted */
@@ -396,19 +396,19 @@ a.ui.yellow.header:hover {
   color: #ffe21f !important;
 }
 a.ui.inverted.yellow.header:hover {
-  color: #ffe42e !important;
+  color: #ffdf05 !important;
 }
 
 /*--- Green ---*/
 
 .ui.green.header {
-  color: #5bbd72 !important;
+  color: #21ba45 !important;
 }
 a.ui.green.header:hover {
-  color: #66c17b !important;
+  color: #16ab39 !important;
 }
 .ui.green.dividing.header {
-  border-bottom: 2px solid #5bbd72;
+  border-bottom: 2px solid #21ba45;
 }
 
 /* Inverted */
@@ -416,7 +416,7 @@ a.ui.green.header:hover {
   color: #2ecc40 !important;
 }
 a.ui.inverted.green.header:hover {
-  color: #37d249 !important;
+  color: #22be34 !important;
 }
 
 /*--- Teal ---*/
@@ -425,7 +425,7 @@ a.ui.inverted.green.header:hover {
   color: #00b5ad !important;
 }
 a.ui.teal.header:hover {
-  color: #00c4bc !important;
+  color: #009c95 !important;
 }
 .ui.teal.dividing.header {
   border-bottom: 2px solid #00b5ad;
@@ -436,19 +436,19 @@ a.ui.teal.header:hover {
   color: #6dffff !important;
 }
 a.ui.inverted.teal.header:hover {
-  color: #7cffff !important;
+  color: #54ffff !important;
 }
 
 /*--- Blue ---*/
 
 .ui.blue.header {
-  color: #28abe2 !important;
+  color: #2185d0 !important;
 }
 a.ui.blue.header:hover {
-  color: #35b0e4 !important;
+  color: #1678c2 !important;
 }
 .ui.blue.dividing.header {
-  border-bottom: 2px solid #28abe2;
+  border-bottom: 2px solid #2185d0;
 }
 
 /* Inverted */
@@ -456,7 +456,7 @@ a.ui.blue.header:hover {
   color: #54c8ff !important;
 }
 a.ui.inverted.blue.header:hover {
-  color: #63cdff !important;
+  color: #3ac0ff !important;
 }
 
 /*--- Violet ---*/
@@ -482,33 +482,33 @@ a.ui.inverted.violet.header:hover {
 /*--- Purple ---*/
 
 .ui.purple.header {
-  color: #564f8a !important;
+  color: #a333c8 !important;
 }
 a.ui.purple.header:hover {
-  color: #5c5594 !important;
+  color: #9627ba !important;
 }
 .ui.purple.dividing.header {
-  border-bottom: 2px solid #564f8a;
+  border-bottom: 2px solid #a333c8;
 }
 
 /* Inverted */
 .ui.inverted.purple.header {
-  color: #cdc6ff !important;
+  color: #dc73ff !important;
 }
 a.ui.inverted.purple.header:hover {
-  color: #dad5ff !important;
+  color: #d65aff !important;
 }
 
 /*--- Pink ---*/
 
 .ui.pink.header {
-  color: #d9499a !important;
+  color: #e03997 !important;
 }
 a.ui.pink.header:hover {
-  color: #dc56a1 !important;
+  color: #e61a8d !important;
 }
 .ui.pink.dividing.header {
-  border-bottom: 2px solid #d9499a;
+  border-bottom: 2px solid #e03997;
 }
 
 /* Inverted */
@@ -516,7 +516,7 @@ a.ui.pink.header:hover {
   color: #ff8edf !important;
 }
 a.ui.inverted.pink.header:hover {
-  color: #ff9de3 !important;
+  color: #ff74d8 !important;
 }
 
 /*--- Brown ---*/
@@ -542,13 +542,13 @@ a.ui.inverted.brown.header:hover {
 /*--- Grey ---*/
 
 .ui.grey.header {
-  color: #cccccc !important;
+  color: #767676 !important;
 }
 a.ui.grey.header:hover {
-  color: #d4d4d4 !important;
+  color: #838383 !important;
 }
 .ui.grey.dividing.header {
-  border-bottom: 2px solid #cccccc;
+  border-bottom: 2px solid #767676;
 }
 
 /* Inverted */
@@ -556,7 +556,7 @@ a.ui.grey.header:hover {
   color: #dcddde !important;
 }
 a.ui.inverted.grey.header:hover {
-  color: #e4e5e5 !important;
+  color: #cfd0d2 !important;
 }
 
 /*-------------------
@@ -612,7 +612,7 @@ a.ui.inverted.grey.header:hover {
 
 .ui.dividing.header {
   padding-bottom: 0.21428571rem;
-  border-bottom: 1px solid rgba(39, 41, 43, 0.15);
+  border-bottom: 1px solid rgba(34, 36, 38, 0.15);
 }
 .ui.dividing.header .sub.header {
   padding-bottom: 0.21428571rem;
@@ -621,7 +621,7 @@ a.ui.inverted.grey.header:hover {
   margin-bottom: 0em;
 }
 .ui.inverted.dividing.header {
-  border-bottom-color: rgba(255, 255, 255, 0.2);
+  border-bottom-color: rgba(255, 255, 255, 0.1);
 }
 
 /*-------------------
@@ -629,11 +629,11 @@ a.ui.inverted.grey.header:hover {
 --------------------*/
 
 .ui.block.header {
-  background: #f0f0f0;
+  background: #f3f4f5;
   padding: 0.71428571rem 1rem;
   box-shadow: none;
   border: 1px solid #d4d4d5;
-  border-radius: 0.4rem;
+  border-radius: 0.28571429rem;
 }
 .ui.tiny.block.header {
   font-size: 0.85714286rem;
@@ -664,24 +664,22 @@ a.ui.inverted.grey.header:hover {
   border: 1px solid #d4d4d5;
 }
 .ui.attached.block.header {
-  background: #f0f0f0;
+  background: #f3f4f5;
 }
 .ui.attached:not(.top):not(.bottom).header {
   margin-top: 0em;
   margin-bottom: 0em;
   border-top: none;
-  border-bottom: none;
   border-radius: 0em;
 }
 .ui.top.attached.header {
   margin-bottom: 0em;
-  border-bottom: none;
-  border-radius: 0.4rem 0.4rem 0em 0em;
+  border-radius: 0.28571429rem 0.28571429rem 0em 0em;
 }
 .ui.bottom.attached.header {
   margin-top: 0em;
   border-top: none;
-  border-radius: 0em 0em 0.4rem 0.4rem;
+  border-radius: 0em 0em 0.28571429rem 0.28571429rem;
 }
 
 /* Attached Sizes */
