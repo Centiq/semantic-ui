@@ -195,7 +195,7 @@ module.exports = {
         packaged     : path.normalize(answers.dist + '/'),
         uncompressed : path.normalize(answers.dist + '/components/'),
         compressed   : path.normalize(answers.dist + '/components/'),
-        themes       : path.normalize(answers.dist + '/themes/')
+        themes       : ""//path.normalize(answers.dist + '/themes/')
       };
     }
 

@@ -30,7 +30,6 @@
 /* The size of page text  */
 @fontSize : 14px;
 
-
 /*-------------------
     Border Radius
 --------------------*/
