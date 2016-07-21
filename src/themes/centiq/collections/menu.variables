@@ -233,7 +233,7 @@
 
 /* Tabular */
 @tabularBorderColor: @solidBorderColor;
-@tabularBackgroundColor: #FFFFFF;
+@tabularBackgroundColor: transparent;
 @tabularBorderWidth: 1px;
 @tabularHorizontalPadding: 1.4em;
 @tabularMenuTextColor: @menuTextColor;

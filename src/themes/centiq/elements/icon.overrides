@@ -668,12 +668,12 @@ i.icon.weixin:before { content: "\f1d7"; }
 
 @font-face {
   font-family: 'Centiq-Icons';
-  src: url("@{fontPath}/centiq.eot");
+  src: url("/assets/fonts/centiq.eot");
   src:
-    url("@{fontPath}/centiq.eot?#iefix") format('embedded-opentype'),
-    url("@{fontPath}/centiq.svg#icons") format('svg'),
-    url("@{fontPath}/centiq.woff") format('woff'),
-    url("@{fontPath}/centiq.ttf") format('truetype')
+    url("/assets/fonts/centiq.eot?#iefix") format('embedded-opentype'),
+    url("/assets/fonts/centiq.svg#icons") format('svg'),
+    url("/assets/fonts/centiq.woff") format('woff'),
+    url("/assets/fonts/centiq.ttf") format('truetype')
   ;
 
   font-style: normal;
